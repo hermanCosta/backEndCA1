@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Caramelu Bakery</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/carameluBakeryStyles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Caramelu Bakery</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-primary py-5 mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2">Caramelu Bakery</h1>
+          <p class="lead mb-5 text-white-50">Caramelu Bakery is your one-stop-shop for made-to-order cakes, cupcakes and cheesecakes that taste as good as they look.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+      <div class=" mb-5">
+        <h2>What We Do</h2>
+        <hr>
+        <p>The perfect cake, cupcakes and cheesecakes for any occasion. We guarantees a custom designed and hand decorated cake that will delight party guests of all ages</p>
+     </div>
+      <div class=" mb-5">
+
+    <div class="container">
+    
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<p class="lead">Select you your item from our menu below.</p>
+                <input type="checkbox" name="cbOpts" value="isGF" id="ShowGF" /><label for="ShowGF">Highlight Gluten Free Option</label>
+			</div>
+            
+			<div id="results" class="col-lg-8 text-center order-3"></div>
+			<div class="col-lg-4 text-center order-2">
+				<form enctype="application/json" action="/post/json" method="post">
+					<div class="form-group">
+						<select class="form-control" name="sec_n" >
+							<option value="0">Cakes</option>
+							<option value="1">Cupcakes</option>
+							<option value="2">Cheesecakes</option>
+						</select>
+					</div>
+
+                    <div class="form-group">
+
+						<input class="form-control" type="text" name="prodTitle" placeholder="Product title">
+                    </div>
+
+					<div class="form-group">
+						<input class="form-control" type="text" name="price" placeholder="Price">
+					</div>
+
+                    <div class="form-group">
+						<input class="form-control" type="text" name="description" placeholder="Description">
+					</div>
+				
+                    
+					<button type="submit" class="btn btn-primary btn-block">Submit</button>
+				</form>
+                    <button id="delete" class="btn btn-block btn-danger">Delete</button>
+                    <p class="text-muted">To delete an item, click the required row first</p>
+			</div>
+		</div>
+	</div>
+
+       <h2>Contact Us</h2>
+        <hr>
+        <address>
+          <strong>Caramelu Bakery</strong>
+          <br>3481 Melrose Place
+          <br>Beverly Hills, CA 90210
+          <br>
+        </address>
+        <address>
+          <abbr title="Phone">P:</abbr>
+          (123) 456-7890
+          <br>
+          <abbr title="Email">E:</abbr>
+          <a href="mailto:#">name@example.com</a>
+        </address>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/10/27/22/12/cake-1776661__340.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Cakes</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/03/26/09/39/cupcakes-690040__340.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Cupcakes</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/11/29/11/38/blur-1869227__340.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Cheese Cake</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="jquery/jquery.js"></script>
+  <script src="jquery/table.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    function highlightGF(idTable, bShowGF) {
+                                            // if bShowVeg is true, then we're highlighting vegetarian
+                                            //	meals, otherwise we're unhighlighting them.
+        var i=0;
+        var oTable = document.getElementById(idTable);
+        var oTBODY = oTable.getElementsByTagName('TBODY')[0];
+        var aTRs = oTBODY.getElementsByTagName('TR');
+                                                // walk through each of the table rows and see if it has a 
+                                                // "vegetarian" attribute on it.
+        for (i=0; i < aTRs.length; i++) {
+            if (aTRs[i].getAttribute('GlutenFree') && aTRs[i].getAttribute('GlutenFree') == "true") {
+                if (bShowGF){
+                    aTRs[i].style.backgroundColor = "lightGreen";
+                } else {
+                    aTRs[i].style.backgroundColor = "";
+                };
+            };
+        };
+    };
+  </script>
+  <script>
+  window.addEventListener("load", function() {
+    document.querySelector("#ShowGF").addEventListener("click", function() {
+    highlightGF('menuTable', this.checked)
+    })
+  });
+  </script>
+</body>
+
+</html>

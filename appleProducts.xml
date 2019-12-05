@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="appleProducts.xsl" type="text/xsl"?>
+<appleProducts>
+	<product name="Apple Watch">
+		<device>
+			<type>Apple Watch 5</type>
+            <size>40mm</size>
+            <storage>8GB</storage>
+			<colour>Silver</colour>
+			<price>369</price>
+		</device>
+		<device>
+			<type>Apple Watch 5</type>
+            <size>44mm</size>
+            <storage>8GB</storage>
+			<colour>Space Grey</colour>
+			<price>389</price>
+		</device>
+	</product>
+
+	<product name="iPad">
+		<device>
+			<type>iPad</type>
+			<size>10.2"</size>
+			<storage>32GB</storage>
+			<colour>Silver</colour>
+			<price>299</price>
+		</device>
+		<device>
+			<type>iPad mini</type>
+			<size>7.9"</size>
+			<storage>64GB</storage>
+			<colour>Gold</colour>
+			<price>349</price>
+		</device>
+		<device insurance="true">
+			<type>iPad Air</type>
+			<size>11"</size>
+			<storage>256GB</storage>
+			<colour>Space Grey</colour>
+			<price>429</price>
+		</device>>
+		<device insurance="true">
+			<type>iPad Pro</type>
+			<size>12.9"</size>
+			<storage>512GB</storage>
+			<colour>Silver</colour>
+			<price>1.139</price>
+		</device>
+	</product>
+
+	<product name="iPhone">	
+		<device>	
+			<type>iPhone 8</type>
+			<size>4.7"</size>
+			<storage>64GB</storage>
+			<colour>Space Grey</colour>
+			<price>429</price>
+		</device>
+
+		<device>
+			<type>iPhone 8 Plus</type>
+			<size>5.5"</size>
+			<storage>128GB</storage>
+			<colour>Silver</colour>
+			<price>569</price>
+		</device>
+
+		<device unlocked="true">
+			<type>iPhone XS</type>
+			<size>5.8"</size>
+			<storage>128GB</storage>
+			<colour>Red</colour>
+			<price>609</price>
+		</device>
+
+		<device unlocked="true">
+			<type>iPhone XS Max</type>
+			<size>6.5"</size>
+			<storage>256GB</storage>
+			<colour>White</colour>
+			<price>789</price>
+		</device>
+
+		<device unlocked="true">
+			<type>iPhone 11 Pro</type>
+			<size>5.8"</size>
+			<storage>128GB</storage>
+			<colour>Midnight Green</colour>
+			<price>939</price>
+		</device>
+
+		<device unlocked="true">
+			<type>iPhone 11 Pro Max</type>
+			<size>6.5"</size>
+			<storage>256GB</storage>
+			<colour>Space Grey</colour>
+			<price>1149</price>
+		</device>
+	</product>
+
+	<product name="Macbook">
+		<device>
+			<type>Mac mini</type>
+			<size>12"</size>
+			<storage>128GB</storage>
+			<colour>Space Grey</colour>
+			<price>699</price>
+		</device>
+
+		<device insurance="true">
+			<type>Macbook Air</type>
+			<size>13"</size>
+			<storage>256GB</storage>
+			<colour>Gold</colour>
+			<price>1099</price>
+		</device>
+
+		<device insurance="true">
+			<type>Macbook Pro</type>
+			<size>13"</size>
+			<storage>128GB</storage>
+			<colour>Space Grey</colour>
+			<price>1099</price>
+		</device>
+
+		<device insurance="true">
+			<type>Macbook Pro </type>
+			<size>15"</size>
+			<storage>512GB</storage>
+			<colour>Silver</colour>
+			<price>1649</price>
+		</device>
+	</product>	
+</appleProducts>
+
+
+
+

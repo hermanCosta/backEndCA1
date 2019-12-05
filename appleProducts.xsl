@@ -29,9 +29,7 @@
 			<td><xsl:value-of select="colour" /></td>
 			<td><xsl:value-of select="price" /></td>
 
-			<td align="center">
-                <input name="item0" type="checkbox" />
-            </td>
+		
 		</tr>	
 			</xsl:for-each>
 		</xsl:for-each>

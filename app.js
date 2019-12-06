@@ -61,7 +61,7 @@ router.post('/post/json', function(req, res) {
     xmlFileToJs('appleProducts.xml', function(err, result) {
       if (err) throw (err);
       //This is where you pass on information from the form inside index.html in a form of JSON and navigate through our JSON (XML) file to create a new entree object
-      result.appleProducts.product[obj.sec_n].device.push({'type': obj.type, 'size': obj.size, 'storage': obj.storage, 'colour': obj.colour, 'price': obj.price }); //If your XML elements are differet, this is where you have to change to your own element names
+      result.appleProducts.product[obj.prod_n].device.push({'type': obj.type, 'size': obj.size, 'storage': obj.storage, 'colour': obj.colour, 'price': obj.price }); //If your XML elements are differet, this is where you have to change to your own element names
       //Converting back to our original XML file from JSON
       jsToXmlFile('appleProducts.xml', result, function(err) {
         if (err) console.log(err);
@@ -78,15 +78,17 @@ router.post('/post/json', function(req, res) {
 });
 
 // POST request to add to JSON & XML files
-router.post('/post/delete', function(req, res) {
+router.post('/post/delete', function(req) {
 
   // Function to read in a JSON file, add to it & convert to XML
   function deleteJSON(obj) {
     // Function to read in XML file, convert it to JSON, delete the required object and write back to XML file
     xmlFileToJs('appleProducts.xml', function(err, result) {
       if (err) throw (err);
+        
+
       //This is where we delete the object based on the position of the section and position of the entree, as being passed on from index.html
-      delete result.appleProducts.product-type[obj.product].product[obj.devicea];
+      delete result.appleProducts.product[obj.product].device[obj.device];
       //This is where we convert from JSON and write back our XML file
       jsToXmlFile('appleProducts.xml', result, function(err) {
         if (err) console.log(err);

@@ -80,7 +80,7 @@
 			<div class="col-lg-4 text-center order-2">
 				<form enctype="application/json" action="/post/json" method="post">
 					<div class="form-group">
-						<select class="form-control" name="sec_n" >
+						<select class="form-control" name="prod_n" >
 							<option value="0">Apple Watch</option>
 							<option value="1">iPad</option>
 							<option value="2">iPhone</option>
@@ -106,7 +106,7 @@
 					</div>
 
                     <div class="form-group">
-						<input class="form-control" type="text" name="Price" placeholder="Price">
+						<input class="form-control" type="text" name="price" placeholder="Price">
 					</div>
 				
                     
@@ -216,7 +216,7 @@
   <script>
   window.addEventListener("load", function() {
     document.querySelector("#ShowGF").addEventListener("click", function() {
-    highlightGF('menuTable', this.checked)
+    highlightGF('deviceTable', this.checked)
     })
   });
   </script>

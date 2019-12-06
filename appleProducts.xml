@@ -4,16 +4,21 @@
     <device>
       <type>Apple Watch 5</type>
       <size>40mm</size>
-      <storage>8GB</storage>
       <colour>Silver</colour>
       <price>369</price>
     </device>
     <device>
       <type>Apple Watch 5</type>
       <size>44mm</size>
-      <storage>8GB</storage>
       <colour>Space Grey</colour>
       <price>389</price>
+    </device>
+    <device>
+      <type>hhuih</type>
+      <size>98989</size>
+      <storage>8988</storage>
+      <colour>jobkjj</colour>
+      <price>888</price>
     </device>
   </product>
   <product name="iPad">
@@ -37,65 +42,58 @@
       <colour>Gold</colour>
       <price>349</price>
     </device>
-    <device insurance="true">
+    <device Insurance="true">
       <type>iPad Air</type>
       <size>11"</size>
       <storage>256GB</storage>
       <colour>Space Grey</colour>
       <price>429</price>
     </device>
-    <device insurance="true">
+    <device Insurance="true">
       <type>iPad Pro</type>
       <size>12.9"</size>
       <storage>512GB</storage>
       <colour>Silver</colour>
       <price>1.139</price>
     </device>
-    <device>
-      <type>kjbjkb</type>
-      <size>876</size>
-      <storage>987</storage>
-      <colour>jbj</colour>
-      <price/>
-    </device>
   </product>
   <product name="iPhone">
-    <device>
+    <device Unlocked="true">
       <type>iPhone 8</type>
       <size>4.7"</size>
       <storage>64GB</storage>
       <colour>Space Grey</colour>
       <price>429</price>
     </device>
-    <device>
+    <device Unlocked="true">
       <type>iPhone 8 Plus</type>
       <size>5.5"</size>
       <storage>128GB</storage>
       <colour>Silver</colour>
       <price>569</price>
     </device>
-    <device unlocked="true">
+    <device Unlocked="true">
       <type>iPhone XS</type>
       <size>5.8"</size>
       <storage>128GB</storage>
       <colour>Red</colour>
       <price>609</price>
     </device>
-    <device unlocked="true">
+    <device Unlocked="true">
       <type>iPhone XS Max</type>
       <size>6.5"</size>
       <storage>256GB</storage>
       <colour>White</colour>
       <price>789</price>
     </device>
-    <device unlocked="true">
+    <device Unlocked="true">
       <type>iPhone 11 Pro</type>
       <size>5.8"</size>
       <storage>128GB</storage>
       <colour>Midnight Green</colour>
       <price>939</price>
     </device>
-    <device unlocked="true">
+    <device Unlocked="true">
       <type>iPhone 11 Pro Max</type>
       <size>6.5"</size>
       <storage>256GB</storage>
@@ -111,21 +109,21 @@
       <colour>Space Grey</colour>
       <price>699</price>
     </device>
-    <device insurance="true">
+    <device Insurance="true">
       <type>Macbook Air</type>
       <size>13"</size>
       <storage>256GB</storage>
       <colour>Gold</colour>
       <price>1099</price>
     </device>
-    <device insurance="true">
+    <device Insurance="true">
       <type>Macbook Pro</type>
       <size>13"</size>
       <storage>128GB</storage>
       <colour>Space Grey</colour>
       <price>1099</price>
     </device>
-    <device insurance="true">
+    <device Insurance="true">
       <type>Macbook Pro </type>
       <size>15"</size>
       <storage>512GB</storage>

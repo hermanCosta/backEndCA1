@@ -17,9 +17,9 @@ body {
 }
 table, th, td {
      border-collapse: collapse;
-     border: 1px solid black;
+     border: 1px solid rgb(243, 242, 242);
      text-align: center;
-    
+
      
 }
  table {
@@ -29,9 +29,10 @@ table, th, td {
 }
 
  td, th {
-     border: 1px solid #999;
+     border: 1px solid rgb(211, 231, 30);
      padding: 0.5rem;
      text-align: center;
+     
     
 }
  th {

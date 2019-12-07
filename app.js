@@ -76,33 +76,6 @@ router.post('/post/json', function(req, res) {
   res.redirect('back');
 
 });
-
-/*
-// POST request to add to JSON & XML files
-router.post('/post/delete', function(req) {
-
-  // Function to read in a JSON file, add to it & convert to XML
-  function deleteJSON(obj) {
-    // Function to read in XML file, convert it to JSON, delete the required object and write back to XML file
-    xmlFileToJs('appleProducts.xml', function(err, result) {
-      if (err) throw (err);
-        
-
-      //This is where we delete the object based on the position of the section and position of the entree, as being passed on from index.html
-      delete result.appleProducts.product[obj.product].device[obj.device];
-      //This is where we convert from JSON and write back our XML file
-      jsToXmlFile('appleProducts.xml', result, function(err) {
-        if (err) console.log(err);
-      })
-    })
-  }
-
-  // Call appendJSON function and pass in body of the current POST request
-  deleteJSON(req.body);
-
-});
-**/
-
 // POST request to add to JSON & XML files
 router.post('/post/delete', function(req, res) {
 

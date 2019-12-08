@@ -6,6 +6,10 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
+header {
+    background-image: src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp5IphIDWM7GhWO1chAKg4g0sCwf3Y2DjBGfMCHEAgVNQBrNyc1Q&s"
+}
 .footer {
   position: absolute;
   bottom: 0;
@@ -38,4 +42,10 @@ table, th, td {
  th {
      font-weight: bold;
      text-align: center;
+}
+.selected {
+    background-color: rgb(211, 231, 30);
+}
+.banner {
+    background-image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp5IphIDWM7GhWO1chAKg4g0sCwf3Y2DjBGfMCHEAgVNQBrNyc1Q&s"
 }

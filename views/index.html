@@ -1,206 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Apple Plus </title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/appleProducts.css" rel="stylesheet">
-</head>
-
-<body>
-
-  
-
-  <!-- Header -->
-  <header class="bg-primary py-5 mb-5" style="length:100px; height: 100px;" >
-    <div class="container h-100" >
-      <div class="row h-100 align-items-center">
-        <div class="col-lg-12">
-        
-          <h1 class="display-4 text-white mt-5 mb-2 strong">Apple Lemon</h1>
-          <p class="lead mb-5 text-white-60"> We are simply the First Apple reseller in Ireland! </p>
-        
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom styles for this template -->
+      <link href="css/appleProducts.css" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Header -->
+      <header class="bg-primary py-5 mb-5" style="length:100px; height: 100px;">
+         <div class="container h-100" >
+            <div class="row h-100 align-items-center">
+               <div class="col-lg-12">
+                  <h1 class="display-4 text-white mt-5 mb-2 strong">Apple Lemon</h1>
+                  <p class="lead mb-5 text-white-60"> We are simply the First Apple reseller in Ireland! </p>
+               </div>
+            </div>
+      </header>
+      <!-- Page Content -->
+      <div class="container">
+      <div class="row">
+      <div class="container">
+      <div class="row">
+      <div class="col-lg-12 text-left">
       </div>
-    </div>
-  </header>
-
-  <!-- Page Content -->
-  <div class="container">
-
-    <div class="row">
-    
-
-    <div class="container">
-    
-		<div class="row">
-			<div class="col-lg-12 text-left">
-
-			</div>
-            
-            
-			<div id="results" class="col-lg-8 text-center order-3"></div>
-			<div class="col-lg-4 text-center order-2">
-
-				<form enctype="application/json" action="/post/json" method="post">
-					<div class="form-group">
-						<select class="form-control" name="prod_n" >
-							<option value="0">Apple Watch</option>
-							<option value="1">iPad</option>
-							<option value="2">iPhone</option>
-                            <option value="3">Macbook</option>
-						</select>
-                        
-					</div>
-
-                    <div class="form-group">
-
-						<input class="form-control" required="true" type="text" name="type" placeholder="Device type">
-                    </div>
-
-					<div class="form-group">
-						<input class="form-control" required="true" type="number" name="size" placeholder="Size">
-					</div>
-
-                    <div class="form-group">
-						<input class="form-control" required="true" type="number" name="storage" placeholder="Storage">
-					</div>
-
-                    <div class="form-group">
-						<input class="form-control" required="true" type="text" name="colour" placeholder="Colour">
-					</div>
-
-                    <div class="form-group">
-						<input class="form-control" required="true" type="number" name="price" placeholder="Price">
-					</div>
-				
-                    
-					<button type="submit" class="btn btn-primary btn-block">Submit</button>
-				</form>
-                    <button id="delete" class="btn btn-block btn-danger">Delete</button>
-                    <p class="text-muted">Fill out the form to add a new device <br/>
-                    To delete a device, select a device first</p>
-
-                    <div class="col-lg-12 text-left">
-                    <br/>
-                    <br/>
-
-    
-    <h2>Contact Us</h2>
-        <hr>
-        <address>
-          <strong>Apple Lemon Ltd</strong>
-          <br>777 Seventy seven Place, Dublin 2, Leinster
-          <br>Beverly Hills, CA 90210
-          <br>
-        </address>
-        <address>
-          <abbr title="Phone">P:</abbr>
-          (01) 787-9989
-          <br>
-          <abbr title="Email">E:</abbr>
-          <a href="mailto:#">marketing@applelemon.com</a>
-        </address>
-
-        <!--Facebook-->
-<a class="btn-floating btn-lg btn-fb" type="button" role="button"><i class="fab fa-facebook-f"></i></a>
-
-<!--Google +-->
-<a class="btn-floating btn-lg btn-gplus" type="button" role="button"><i class="fab fa-google-plus-g"></i></a>
-
-<!--Instagram-->
-<a class="btn-floating btn-lg btn-ins" type="button" role="button"><i class="fab fa-instagram"></i></a>
-
-<!--Email-->
-<a class="btn-floating btn-lg btn-email" type="button" role="button"><i class="fas fa-envelope"></i></a>
-
-
-<!--WhatsApp-->
-<a class="btn-floating btn-lg btn-whatsapp" type="button" role="button"><i class="fab fa-whatsapp"></i></a>
-    </div>
-</div>
-			</div>
-		</div>
-	</div>
-      
-    <!-- /.row -->
-
-    <div class="row">
+      <div id="results" class="col-lg-8 text-center order-3"></div>
+      <div class="col-lg-4 text-center order-2">
+      <form enctype="application/json" action="/post/json" method="post">
+      <div class="form-group">
+      <select class="form-control" name="prod_n" >
+      <option value="0">Apple Watch</option>
+      <option value="1">iPad</option>
+      <option value="2">iPhone</option>
+      <option value="3">Macbook</option>
+      </select>
+      </div>
+      <div class="form-group">
+      <input class="form-control" required="true" type="text" name="type" placeholder="Device type">
+      </div>
+      <div class="form-group">
+      <input class="form-control" required="true" type="number" name="size" placeholder="Size">
+      </div>
+      <div class="form-group">
+      <input class="form-control" required="true" type="number" name="storage" placeholder="Storage">
+      </div>
+      <div class="form-group">
+      <input class="form-control" required="true" type="text" name="colour" placeholder="Colour">
+      </div>
+      <div class="form-group">
+      <input class="form-control" required="true" type="number" name="price" placeholder="Price">
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </form>
+      <button id="delete" class="btn btn-block btn-danger">Delete</button>
+      <p class="text-muted">Fill out the form to add a new device <br/>
+      To delete a device, select a device first</p>
+      <div class="col-lg-12 text-left">
+      <br/>
+      <br/>
+      <h2>Contact Us</h2>
+      <hr>
+      <address>
+      <strong>Apple Lemon Ltd</strong>
+      <br>777 Seventy seven Place
+      <br>Dublin 2, Leinster
+      <br>
+      </address>
+      <address>
+      <abbr title="Phone">P:</abbr>
+      (01) 787-9989
+      <br>
+      <abbr title="Email">E:</abbr>
+      <a href="mailto:#">marketing@applelemon.com</a>
+      </address>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <!-- /.row -->
+      <div class="row">
       <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="https://www.starkfeed.com/wp-content/uploads/2018/10/apple-products-with-bitcoins.jpg" alt="">
-          <div class="card-body">
-            <h4 class="card-title text-center" >Love Apple</h4>
-            <p class="card-text">Go from Small to Large without losing the Power</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
+      <div class="card h-100">
+      <img class="card-img-top" src="https://www.starkfeed.com/wp-content/uploads/2018/10/apple-products-with-bitcoins.jpg" alt="">
+      <div class="card-body">
+      <h4 class="card-title text-center" >Love Apple</h4>
+      <p class="card-text">Go from Small to Large without losing the Power</p>
+      </div>
+      <div class="card-footer">
+      <a href="#" class="btn btn-primary">Find Out More!</a>
+      </div>
+      </div>
       </div>
       <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="https://i.gzn.jp/img/2019/09/11/apple-products-photos/00.png" alt="">
-          <div class="card-body">
-            <h4 class="card-title text-center">Apple New Generation</h4>
-            <p class="card-text">Think different Apple 2019 is full of inspiration</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
+      <div class="card h-100">
+      <img class="card-img-top" src="https://i.gzn.jp/img/2019/09/11/apple-products-photos/00.png" alt="">
+      <div class="card-body">
+      <h4 class="card-title text-center">Apple New Generation</h4>
+      <p class="card-text">Think different Apple 2019 is full of inspiration</p>
+      </div>
+      <div class="card-footer">
+      <a href="#" class="btn btn-primary">Find Out More!</a>
+      </div>
+      </div>
       </div>
       <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top center" src="https://cdn.macrumors.com/article-new/2018/12/apple2018productlineup-800x263.jpg" alt="">
-          <div class="card-body">
-            <h4 class="card-title text-center">You Need Apple</h4>
-            <p class="card-text">Discover what your needs need</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
+      <div class="card h-100">
+      <img class="card-img-top center" src="https://cdn.macrumors.com/article-new/2018/12/apple2018productlineup-800x263.jpg" alt="">
+      <div class="card-body">
+      <h4 class="card-title text-center">You Need Apple</h4>
+      <p class="card-text">Discover what your needs need</p>
       </div>
-    </div>
-    <!-- /.row -->
-
-    
+      <div class="card-footer">
+      <a href="#" class="btn btn-primary">Find Out More!</a>
       </div>
-    </div>
-
-  </div>
-  <!-- /.container -->
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark" style="height: 10px;">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Apple Lemon 2019</p>
-    </div>
-    <!-- /.container -->
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="jquery/jquery.js"></script>
-  <script src="jquery/table.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  
-  <script>
-  window.addEventListener("load", function() {
-    document.querySelector("#ShowGF").addEventListener("click", function() {
-    highlightGF('deviceTable', this.checked)
-    })
-  });
-  </script>
-</body>
-
-</html>
+      </div>
+      </div>
+      </div>
+      <!-- /.row -->
+      </div>
+      </div>
+      </div>
+      <!-- /.container -->
+      <!-- Footer -->
+      <footer class="py-5 bg-dark" style="height: 10px;">
+         <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Apple Lemon 2019</p>
+         </div>
+         <!-- /.container -->
+      </footer>
+      <!-- Bootstrap core JavaScript -->
+      <script src="jquery/jquery.js"></script>
+      <script src="jquery/table.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+         window.addEventListener("load", function() {
+           document.querySelector("#ShowGF").addEventListener("click", function() {
+           highlightGF('deviceTable', this.checked)
+           })
+         });
+      </script>
+   </body>
+</html>a

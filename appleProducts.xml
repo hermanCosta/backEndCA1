@@ -4,12 +4,14 @@
     <device>
       <type>Apple Watch 5</type>
       <size>40mm</size>
+      <storage>8GB</storage>
       <colour>Silver</colour>
       <price>369</price>
     </device>
     <device>
       <type>Apple Watch 5</type>
       <size>44mm</size>
+      <storage>8GB</storage>
       <colour>Space Grey</colour>
       <price>389</price>
     </device>

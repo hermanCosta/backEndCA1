@@ -3,9 +3,6 @@
 <xsl:template match="/">	
 	<table id="deviceTable" class="indent">
         <thead>
-            <tr>
-                <th colspan="5">Apple and Lemon </th>
-            </tr>
         <tr>
 			<th>Type</th>
             <th>Size</th>
@@ -17,7 +14,7 @@
         <tbody>
 		    <xsl:for-each select="/appleProducts/product">
 		<tr>
-			 <td colspan="5" align="center">
+			 <td colspan="5"  align="center">
            		 <xsl:value-of select="@name" />
            </td>		
 		</tr>

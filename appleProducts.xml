@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?xml-stylesheet href="appleProducts.xsl" type="text/xsl"?>
 <appleProducts>
   <product name="Apple Watch">
     <device>
